@@ -1,3 +1,16 @@
+/*
+
+WARNING!  This file is VEERRRY messy and is loosely based on the teensy\main.c file from micropython repository.
+
+It contains some needed standard library functions that are needed as we are building using -nodefaultlibs.
+These should really be seperated out and added to libmpython.a
+
+void python_setup(void)
+is the function of most interest as this is where user defined C functions and objects are mapped into the python runtime.
+
+*/
+
+
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>

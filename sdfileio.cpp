@@ -1,6 +1,10 @@
-#include <SD.h>
+/*
 
-// #include <mpython.h>
+This module demonstrates C <-> C++ api, so we can use the arduino libraries.
+
+*/
+
+#include <SD.h>
 
 File _cwd;		// current working directory
 

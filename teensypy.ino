@@ -10,7 +10,8 @@ void setup()
 {
 	Serial.begin(115200);
 
-	delay(200);
+	// Give the serial monitor time to connect
+	delay(1000);
 
 	python_setup();
 

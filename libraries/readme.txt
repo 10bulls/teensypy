@@ -2,6 +2,7 @@ Copy 'mpython' folder to the arduino libaries folder.
 
 Add the contents of 'boards.txt' to the existing 'arduino/hardware/teensy/boards.txt'
 (DO NOT REPLACE THE EXISTING ONE!)
+Change any relevant paths in the 
 
 Copy 'mk20dx256py.ld' to 'arduino/hardware/teensy/cores/teensy3'
 

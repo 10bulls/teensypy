@@ -7,18 +7,14 @@ and Paul Stoffregen for packing so much into a Teensy package.
 
 The python support is added using a static library build of the core micropython files (libmpython.a).
 This static was built using this project...
-https://github.com/10bulls/micropython_vs
-and this branch of the micropython code...
-https://github.com/10bulls/micropython
+https://github.com/10bulls/libmpython
 
-This project uses Visual Micro (http://www.visualmicro.com/)
-The sketch could also be used with the Arduino IDE, but I have not yet modified the included libraries\boards.txt to
-add references to the libmpython.a (Arduino IDE and Visual Micro uses different ways of passing link options).
+This project uses Visual Micro (http://www.visualmicro.com/) but can also be built using the Arduino IDE.
 
 To build this project, the build environment first needs to be set up.
 The files used for this are located in the 'libraries' folder.
 
-Copy 'mpython' folder to the arduino libaries folder.
+Copy 'mpython' folder to the arduino\libaries folder.
 
 Add the contents of 'boards.txt' to the existing 'arduino/hardware/teensy/boards.txt'
 (DO NOT REPLACE THE EXISTING ONE!)
